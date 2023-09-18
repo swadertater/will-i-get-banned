@@ -1,0 +1,34 @@
+{
+  "name": "will-i-get-banned",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swadertater/will-i-get-banned.git"
+  },
+  "author": "Swade Howard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swadertater/will-i-get-banned/issues"
+  },
+  "homepage": "https://github.com/swadertater/will-i-get-banned#readme",
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^1.0.1",
+    "@types/node": "^20.6.2",
+    "chromadb": "^1.5.9",
+    "langchain": "^0.0.150",
+    "openai": "^4.7.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
